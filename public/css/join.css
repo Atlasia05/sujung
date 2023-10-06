@@ -1,0 +1,102 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.form-group {
+  margin-bottom: 3vh;
+  margin-left: 5%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  margin-top: 4vh;
+  width: 95%;
+  height: 5vh;
+  background-color: rgba(80, 71, 71, 0.1);
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-family: Noto_Medium;
+}
+
+.form-group button:hover {
+  background-color: #665ad3;
+  color: #fff;
+}
+
+.form-group p {
+  text-align: center;
+}
+
+.form-group a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+.user > input {
+  width: 85%;
+}
+
+.user > div {
+  width: 8%;
+  margin-left: 2%;
+  height: 3vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgb(242, 242, 242);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.user > div:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.idForm {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: flex;
+}
+
+.idForm > .checkID {
+  margin-left: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header .login{
+    width: 15vw;
+    text-align: center;
+}
+
+.Upload-title {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 5px 5px -3px #093580;
+    border-radius: 25px;
+}
+
+
+.Upload-title-p {
+    position: absolute;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 2vw;
+    font-size: 18px;
+    margin-top: 1vh;
+}
+
+.Upload-title-p > p {
+    display: block;
+    font-family: Noto_Black !important;
+}
+.container {
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    transform: translate(-50%);
+    width: 900px;
+    height: 600px;
+}
+
+.container > form {
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    transform: translate(-50%);
+    width: 900px;
+    height: 600px;
+    box-shadow: 0px 0px 5px 2px gray;
+    border-radius: 25px;
+    display: flex;
+}
+
+.left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.Upload-img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 5%;
+    text-align: center;
+    line-height: 500px;
+    font-size: 20px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Upload-img > li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wid {
+    width: 90% !important;
+}
+
+.hei {
+    height: 90% !important;
+}
+
+.Upload-img > li > img {
+    object-fit: cover;
+}
+
+.Upload-img-input {
+    position: absolute;
+    width: 78%;
+    height: 40px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    display: none;
+}
+
+.Upload-img-label {
+    position: absolute;
+    width: 39%;
+    height: 40px;
+    background-color: #093580;
+    top: 70%;
+    left: 10%;
+    text-align: center;
+    color: azure;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Upload-img-form> button:nth-child(4) {
+    left: 50%;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add_img {
+    top: 75% !important;
+    left: 5% !important;
+    width: 90% !important;
+    height: 45px;
+    line-height: 45px;
+}
+
+.Upload-img-input:hover {
+    cursor: pointer;
+}
+
+
+.right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.contents-h2 {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    font-weight: 600;
+    font-size: 26px;
+    text-decoration: underline;
+    font-family: Noto_Medium !important;
+}
+
+.contents-ul {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+.contents-ul > li > input {
+    background-color: white;
+    font-size: 16px;
+    font-family: Noto_Regular;
+}
+
+.contents-ul > li > input:focus {
+    background-color: white;
+}
+
+.contents-ul > li:nth-child(1) > input {
+    width: 370px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.contents-ul > li:nth-child(2) > textarea {
+    width: 370px;
+    padding: 5px;
+    padding-top: 10px;
+    height: 225px;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contents-ul > li:nth-child(3) > input {
+    width: 370px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.contents-ul > li:nth-child(4) > input {
+    width: 370px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+.contents-li {
+    margin-top: 20px;
+}
+
+.contents-p {
+    font-size: 20px;
+}
+
+.contents-span {
+    color: red;
+}
+
+.contents-textarea {
+    width: 370px;
+    height: 65px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 17px;
+    background-color: rgb(236, 236, 236);
+    transition: all 0.05s ease;
+    border: 1px solid;
+    outline: none;
+}
+
+.contents-textarea:focus {
+    background-color: rgb(209, 209, 209); 
+    border: 1.5px solid;
+}
+
+.Upload-button {
+    position: absolute;
+    width:140px;
+    height: 40px;
+    background-color: #093580;
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 25px;
+    top: 90%;
+    font-family: TahomaR;
+
+}
+
+.Upload-button-left {
+    left: 65%;
+}
+
+.Upload-button-right {
+    right: 65%;
+}
+
+.cansleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: TahomaR;
+}
+
+.Upload-button:hover {
+    background-color: #061e47;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background-color: rgb(51, 51, 51, 0.6);
+    backdrop-filter: blur(3px);
+    display: none;
+}
+
+.modal-inner {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid #093580;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+.modal-inner-h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 1vh;
+}
+
+.modal-inner-li {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.modal-inner-h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.modal-center {
+    display: flex;
+    align-items: center;
+}
+
+.modal-inner-ul > li:nth-child(2) > p {
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.modal-inner-p {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.modal-inner-button {
+    left: 20%;
+}
+
+.modal-inner-back {
+    right: 20%;
+}
