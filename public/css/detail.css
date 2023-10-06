@@ -1,0 +1,261 @@
+.main-img{
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(128, 128, 128, 0.8);
+    margin-bottom: 1vh;
+}
+
+.low{
+    height: 80vh !important;
+}
+
+.main-img img{
+    object-fit: cover;
+}
+
+.wid {
+    width: 100%;
+}
+
+.hei {
+    height: 100%;
+}
+
+.user-info{
+    width: 80%;
+    height: 7vh;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.user-img{
+    width: 50px;
+    height: 50px;
+}
+
+.user-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100000px;
+}
+
+.user-info2{
+    margin-left: 2%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+.user-info2 > h2 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Noto_Medium;
+}
+
+.user-number{
+    width: 100%;
+    font-size: 14px;
+}
+
+.object-contents{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    padding-top: 1.5%;
+    border-top: 1px dashed black;
+}
+
+.object-name{
+    width: 100%;
+    height: 7%;
+    font-family: Noto_Medium;
+}
+
+.price{
+    width: 100%;
+    height: 4%;
+    color: #333;
+    font-weight: 600;
+}
+
+.object-info{
+    width: 90%;
+    min-height: 14vh;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: Noto_Light;
+}
+
+.object-info > pre {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    height: auto;
+    border: none;
+    resize: none;
+    overflow:visible;
+    border: none;
+    outline: none;
+    padding-bottom: 3vh;
+}
+
+.userBtn {
+    transform: translateY(-1vh);
+    margin-left: 11vw;
+    width: 10vw !important;
+    display: flex;
+    height: 3.5vh;
+}
+
+.edit:hover {
+    background-color: #7f7fff !important;
+    color: white !important;
+}
+
+.del:hover {
+    background-color: #ff8080 !important;
+    color: white !important;
+}
+
+.comment {
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.object-contents+form {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+#comment {
+    width: 100%;
+    padding: 5px 1%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px 0px 10px 0px;
+}
+#comment+button {
+    width: 10%;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#comment+button:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.commentlist {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.commentlist > li {
+    margin: 0 auto;
+    width: 100%;
+    height: 140px;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    padding-top: 1vh;
+    background-color: #f7f7f7;
+
+}
+
+.commentlist > li > .userForm {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.userForm {
+    width: 100%;
+}
+
+.userForm > .imgBox {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.userForm > .imgBox > img {
+    height: 100%;
+}
+
+.row1 {
+    width: 35vw;
+    height: 50%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 > h4 {
+    font-weight: 600;
+}
+
+.row1 > p {
+    font-size: 14px;
+}
+
+.row1 > a {
+    margin-top: 0.6vh;
+    width: 70px;
+    height: 130%;
+    padding: 0px 0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    transition: 0.3s;
+}
+.row1 > a:hover {
+    background-color: rgb(255, 132, 132);
+}
+
+.userForm + textarea {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px 1%;
+    height: 70px;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #eeeeee;
+}
+
+.commentlist > h2 {
+    margin-bottom: 1.5vh;
+    font-size: 22px;
+    font-weight: 600;
+}
