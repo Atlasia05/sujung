@@ -16,7 +16,7 @@ function Modify(e) {
     const uid = e.dataset.uid;
     console.log(uid);
     if(uid == 1) {
-        alert("관리자 계정은 변경이 불가합니다.");
+        alert("관리자 계정은 변경이 불가합니다11111.");
         return;
     }
     let inputs = document.querySelectorAll(`.inputs${uid}`);
